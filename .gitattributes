@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf
+
+# Vendored SQLite amalgamation: do not let GitHub count it toward the repo's
+# language statistics, and never reformat or diff it in review.
+amalgamation/sqlite3.c linguist-vendored linguist-detectable=false
+amalgamation/sqlite3.h linguist-vendored linguist-detectable=false
